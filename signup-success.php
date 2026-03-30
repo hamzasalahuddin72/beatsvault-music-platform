@@ -61,8 +61,6 @@ if (isset($_SESSION["user_id"]) && ($now - $_SESSION["start"]) < $_SESSION["dura
     <link rel="stylesheet" href="css/countries-list.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script defer src="js/signup-session.js"></script>
-    <script type="text/javascript" src="js/lastfm.api.md5.js"></script>
-    <script type="text/javascript" src="js/lastfm.api.js"></script>
     <title>One last step - BEATSVAULT</title>
 </head>
 

@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = require "../database.php";
+$mysqli = require "../database-main.php";
 
 $sql1 = "SELECT * FROM genres_list";
 $sql2 = "SELECT * FROM daws_list";
