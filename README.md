@@ -78,3 +78,92 @@ beatsvault-music-platform/
 ├── user-account.php     # Account-related functionality
 ├── .htaccess            # Server routing/configuration
 └── ...
+```
+
+---
+
+# How to Run Locally
+1. Clone the repository
+git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
+cd beatsvault-music-platform
+2. Set up a local PHP environment
+
+Run the project using a local server environment such as:
+
+XAMPP
+MAMP
+LAMP
+
+Place the project folder inside your local web server directory if needed.
+
+3. Create a MySQL database
+
+Create a database for the project, for example:
+
+CREATE DATABASE beatsvault;
+4. Import the database schema
+
+Import the SQL schema and any sample data into your local MySQL database.
+
+If you already have an SQL export for the project, it is a good idea to store it in a folder such as:
+
+database/schema.sql
+
+You can import it using phpMyAdmin or the MySQL command line.
+
+5. Configure database connection settings
+
+Update the relevant PHP database connection files with your local credentials, including:
+
+database name
+username
+password
+host
+6. Start the server
+
+Start Apache and MySQL in your local environment, then open the project in your browser.
+
+Example:
+
+http://localhost/beatsvault-music-platform
+
+---
+
+# What I Learned
+
+Building BeatsVault improved my understanding of how complete web applications are structured and maintained. It helped me move beyond isolated coding tasks and think more carefully about how features interact across the whole system.
+
+Some of the main things I developed through this project were:
+
+structuring a larger PHP application
+connecting front-end behaviour with back-end logic
+designing database-backed user workflows
+managing authentication and session-based access
+debugging across multiple layers of an application
+thinking about maintainability and future scalability
+Future Improvements
+
+There are several ways BeatsVault could be extended further:
+
+advanced search and filtering
+playlist or collection support
+improved responsive design across devices
+stronger form validation and error handling
+richer messaging and collaboration features
+better media handling or streaming support
+admin tools for moderation and content management
+clearer separation of configuration and application layers
+API-based architecture for future expansion
+
+---
+
+# Author
+
+Hamza Salahuddin
+MSc Data Science student with a First-Class BSc in Computer Science, interested in full-stack development, data analytics, and practical software systems.
+
+---
+
+# License
+
+This project is shared for portfolio and educational purposes.
