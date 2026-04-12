@@ -84,48 +84,48 @@ beatsvault-music-platform/
 
 ## How to Run Locally
   1. Clone the repository
-git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
-cd beatsvault-music-platform
+     git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
+     cd beatsvault-music-platform
   2. Set up a local PHP environment
 
-Run the project using a local server environment such as:
+  Run the project using a local server environment such as:
 
-XAMPP
-MAMP
-LAMP
+  XAMPP
+  MAMP
+  LAMP
 
-Place the project folder inside your local web server directory if needed.
+  Place the project folder inside your local web server directory if needed.
 
   3. Create a MySQL database
 
-Create a database for the project, for example:
+  Create a database for the project, for example:
 
-CREATE DATABASE beatsvault;
+  CREATE DATABASE beatsvault;
   4. Import the database schema
 
-Import the SQL schema and any sample data into your local MySQL database.
+  Import the SQL schema and any sample data into your local MySQL database.
+  
+  If you already have an SQL export for the project, it is a good idea to store it in a folder such as:
 
-If you already have an SQL export for the project, it is a good idea to store it in a folder such as:
+  database/schema.sql
 
-database/schema.sql
+  You can import it using phpMyAdmin or the MySQL command line.
 
-You can import it using phpMyAdmin or the MySQL command line.
+  5. Configure database connection settings
 
-5. Configure database connection settings
+  Update the relevant PHP database connection files with your local credentials, including:
 
-Update the relevant PHP database connection files with your local credentials, including:
+  database name
+  username
+  password
+  host
+  6. Start the server
 
-database name
-username
-password
-host
-6. Start the server
+  Start Apache and MySQL in your local environment, then open the project in your browser.
 
-Start Apache and MySQL in your local environment, then open the project in your browser.
+  Example:
 
-Example:
-
-http://localhost/beatsvault-music-platform
+  http://localhost/beatsvault-music-platform
 
 ---
 
