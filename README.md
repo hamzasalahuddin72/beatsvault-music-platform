@@ -83,49 +83,49 @@ beatsvault-music-platform/
 ---
 
 ## How to Run Locally
-  1. Clone the repository
-     git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
-     cd beatsvault-music-platform
-  2. Set up a local PHP environment
+1. Clone the repository
+   git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
+   cd beatsvault-music-platform
+2. Set up a local PHP environment
 
-  Run the project using a local server environment such as:
+Run the project using a local server environment such as:
 
-  XAMPP
-  MAMP
-  LAMP
+XAMPP
+MAMP
+LAMP
 
-  Place the project folder inside your local web server directory if needed.
+Place the project folder inside your local web server directory if needed.
 
-  3. Create a MySQL database
+3. Create a MySQL database
 
-  Create a database for the project, for example:
+Create a database for the project, for example:
 
-  CREATE DATABASE beatsvault;
-  4. Import the database schema
+CREATE DATABASE beatsvault;
+4. Import the database schema
 
-  Import the SQL schema and any sample data into your local MySQL database.
-  
-  If you already have an SQL export for the project, it is a good idea to store it in a folder such as:
+Import the SQL schema and any sample data into your local MySQL database.
 
-  database/schema.sql
+If you already have an SQL export for the project, it is a good idea to store it in a folder such as:
 
-  You can import it using phpMyAdmin or the MySQL command line.
+database/schema.sql
 
-  5. Configure database connection settings
+You can import it using phpMyAdmin or the MySQL command line.
 
-  Update the relevant PHP database connection files with your local credentials, including:
+5. Configure database connection settings
 
-  database name
-  username
-  password
-  host
-  6. Start the server
+Update the relevant PHP database connection files with your local credentials, including:
 
-  Start Apache and MySQL in your local environment, then open the project in your browser.
+database name
+username
+password
+host
+6. Start the server
 
-  Example:
+Start Apache and MySQL in your local environment, then open the project in your browser.
 
-  http://localhost/beatsvault-music-platform
+Example:
+
+http://localhost/beatsvault-music-platform
 
 ---
 
