@@ -82,11 +82,11 @@ beatsvault-music-platform/
 
 ---
 
-# How to Run Locally
-1. Clone the repository
+## How to Run Locally
+  1. Clone the repository
 git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
 cd beatsvault-music-platform
-2. Set up a local PHP environment
+  2. Set up a local PHP environment
 
 Run the project using a local server environment such as:
 
@@ -96,12 +96,12 @@ LAMP
 
 Place the project folder inside your local web server directory if needed.
 
-3. Create a MySQL database
+  3. Create a MySQL database
 
 Create a database for the project, for example:
 
 CREATE DATABASE beatsvault;
-4. Import the database schema
+  4. Import the database schema
 
 Import the SQL schema and any sample data into your local MySQL database.
 
@@ -129,7 +129,7 @@ http://localhost/beatsvault-music-platform
 
 ---
 
-# What I Learned
+## What I Learned
 
 Building BeatsVault improved my understanding of how complete web applications are structured and maintained. It helped me move beyond isolated coding tasks and think more carefully about how features interact across the whole system.
 
@@ -157,13 +157,13 @@ API-based architecture for future expansion
 
 ---
 
-# Author
+## Author
 
 Hamza Salahuddin
 MSc Data Science student with a First-Class BSc in Computer Science, interested in full-stack development, data analytics, and practical software systems.
 
 ---
 
-# License
+## License
 
 This project is shared for portfolio and educational purposes.
