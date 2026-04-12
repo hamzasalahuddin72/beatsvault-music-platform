@@ -84,8 +84,8 @@ beatsvault-music-platform/
 
 ## How to Run Locally
 <ins>1. Clone the repository</ins>
-   git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
-   cd beatsvault-music-platform
+git clone https://github.com/hamzasalahuddin72/beatsvault-music-platform.git
+cd beatsvault-music-platform
 <ins>2. Set up a local PHP environment</ins>
 
 Run the project using a local server environment such as:
