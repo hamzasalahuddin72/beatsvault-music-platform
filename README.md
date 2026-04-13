@@ -43,6 +43,30 @@ Working on this project helped me improve in areas such as:
 
 ---
 
+## Screenshots
+
+### Role-Based Onboarding
+![Role-Based Onboarding](docs/screenshots/role-selection.png)
+
+*Users choose between producer and artist journeys, allowing the platform to tailor profile setup and interaction flow from the start.*
+
+### Music-Focused Personalisation
+![Music-Focused Personalisation](docs/screenshots/daw-selection.png)
+
+*Onboarding captures production preferences such as DAWs to create a more relevant user profile and platform experience.*
+
+### Profile and Content Showcase
+![Profile and Content Showcase](docs/screenshots/profile-feed-player.png)
+
+*Users can manage their identity, display uploaded beats, and interact with a music-focused feed with integrated playback controls.*
+
+### Beat Publishing Workflow
+![Beat Publishing Workflow](docs/screenshots/publish-beat-panel.png)
+
+*Producers can upload tracks, attach metadata such as genre, BPM, key, and description, and prepare content for publishing.*
+
+---
+
 ## Tech Stack
 
 ### Backend
